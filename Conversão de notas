@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class NotasDaProva {
+
+    public static void main(String[] args) {
+        
+        Scanner input = new Scanner(System.in);
+        
+ /*--------------------Solicita ao usuario digitar a nota.-------------------------- */
+ 
+        System.out.println("Digite a nota de 0 a 10:");
+        
+        int nota = input.nextInt();
+
+ /*--------------------teste de comparação e impressão de resultado.-------------------------- */       
+        if (nota == 0) {
+            System.out.println("A nota corresponde a letra E");
+        } else if (nota >= 1 && nota <= 3) {
+            System.out.println("A nota corresponde a letra D");
+        } else if (nota >= 4 && nota <= 6) {
+            System.out.println("A nota corresponde a letra C");
+        } else if (nota >= 7 && nota <= 8) {
+            System.out.println("A nota corresponde a letra B");
+        } else if (nota >= 9 && nota <=10 ) {
+            System.out.println("A nota corresponde a letra A");
+        } else if (nota >=11) {
+        	System.out.println("Nota inválida");
+        }
+        
+    
+        input.close();
+    }
+}
