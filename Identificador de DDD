@@ -1,0 +1,38 @@
+import java.util.Scanner;
+public class main {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Digite o numero do DDD para saber qual a respectiva cidade:");	
+      Scanner sc = new Scanner(System.in);
+      int a = sc.nextInt();
+      if(a == 61){
+          System.out.printf("Esse DDD é de Brasilia\n");
+      }
+      else if(a == 71){
+          System.out.printf("Esse DDD é de Salvador\n");
+      }
+      else if(a == 11){
+          System.out.printf("Esse DDD é de Sao Paulo\n");
+      }
+       else if(a == 21){
+          System.out.printf("Esse DDD é de Rio de Janeiro\n");
+      }
+       else if(a == 32){
+          System.out.printf("Esse DDD é de Juiz de Fora\n");
+      }
+       else if(a ==19){
+          System.out.printf("Esse DDD é de Campinas\n");
+      }
+       else if(a ==27){
+          System.out.printf("Esse DDD é de Vitória");
+      }
+       else if(a == 31){
+          System.out.printf("Esse DDD é de Belo Horizonte\n");
+      }
+       else{
+           System.out.printf("Esse DDD nao está cadastrado\n");
+       }
+    }
+    
+}
