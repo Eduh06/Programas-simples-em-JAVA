@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+/* Programa para leia conjunto de dois valores, o primeiro  para representar  o nome do aluno
+		e o segundo para representar sua idade  */
+
+public class main {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in); //habilita teclado
+		
+		String nome;		//variaveis
+		int idade;
+		
+		
+		while( true) {
+			System.out.println("Nome:"); 			//solicita na tela o nome.
+			nome = scan.next();						//recebe a variavel o nome.
+			if (nome.equals("fim")) break;			//Se a variavel nome for fim encerra o loop
+			
+			System.out.println ("Idade: ");			//solicita na tela a idade.
+			idade = scan.nextInt();					//recebe a variavel  idade.
+		}
+		
+	}
+
+}
