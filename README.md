@@ -1,4 +1,4 @@
-# Programas-simples-em-JAVA
+# Programas-em-Java
 Programas curtos e simples
 
 Tutorial JAVA
