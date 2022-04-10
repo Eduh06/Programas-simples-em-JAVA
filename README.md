@@ -1,10 +1,10 @@
-# Programas-em-Java
+´´# Programas-em-Java
  Guia de Iniciantes
  
 Tutorial JAVA
 
 
-<h2>-------------------------------------------COMANDOS------------------------------------------------</h2>
+<h2>----------------------------COMANDOS--------------------------------------</h2>
 
 Comandos são separadas por um ponto-vírgula. É permitido colocar vários comandos sobre a mesma linha.
 
@@ -20,7 +20,7 @@ Todas as variáveis de tipos primitivos precisam ser declaradas e inicializadas,
  
 
 
-   <h2>-------------------------------------------OPERADORES---------------------------------------------</h2>
+<h2>----------------------------OPERADORES-----------------------------------</h2>
 
 igual a  ==
 
