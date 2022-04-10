@@ -1,4 +1,4 @@
-´´# Programas-em-Java
+´´´´´´# Programas-em-Java
  Guia de Iniciantes
  
 Tutorial JAVA
@@ -47,14 +47,14 @@ maior ou igual a >=
 !	NÃO ("logical NOT")	!a	retorna true se a for false. Senão retorna false
 
 
- <h2>---------------------------------------SAIDA DE DADOS-------------------------------------------</h2>
+<h2>-----------------------------SAIDA DE DADOS----------------------------------</h2>
 
 System.out.println(****) (texto normal)                                         
 
 System.out.printf(“%.2f%n”)  (limitando o numero de casas decimais)
 
 
-<h2>--------------------------------------ENTRADA DE DADOS------------------------------------------</h2>
+<h2>-----------------------------ENTRADA DE DADOS----------------------------------</h2>
 
 Scanner sc = new Scanner (System.in); ( associar teclado ao programa)
 
@@ -63,15 +63,14 @@ Sc.close(); final do programa para encerrar recurso
 X= sc.next();     (associa o que digitar ao valor de x)
 
 
-<h2>--------------------------------------FUNÇÕES MATEMATICAS------------------------------------------</h2>
+<h2>-----------------------------FUNÇÕES MATEMATICAS-------------------------------</h2>
 
 A= Math.sqrt(x)  (variável A recebe raiz quadrada de X)
 
 A= Math.pow(x, y)  (variável A recebe resultado de x elevado a y)
 
 
-
-<h2>--------------------------------------ESTRUTURAS JAVA------------------------------------------</h2>
+<h2>-----------------------------ESTRUTURAS JAVA-----------------------------------</h2>
 
 comando sujeita a uma condição:
 
@@ -156,7 +155,7 @@ Se o <controle> assume o <valor 2> ou o <valor 3>, <comando 3> e <comando 4> sã
 O <comando 5> é executado se o valor do <controle> é diferente de todos os valores listados.
 
 
-<h2>--------------------------------------TRATAMENTO DE EVENTOS------------------------------------------</h2>
+<h2>----------------------------TRATAMENTO DE EVENTOS------------------------------</h2>
 
 ActionEvent - ActionListener
        
