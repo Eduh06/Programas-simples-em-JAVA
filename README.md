@@ -155,7 +155,7 @@ Se o <controle> assume o <valor 2> ou o <valor 3>, <comando 3> e <comando 4> sã
 O <comando 5> é executado se o valor do <controle> é diferente de todos os valores listados.
 
 
-<h2>----------------------------TRATAMENTO DE EVENTOS------------------------------</h2>
+<h2>--------------------TRATAMENTO DE EVENTOS------------------------</h2>
 
 ActionEvent - ActionListener
        
