@@ -63,14 +63,14 @@ Sc.close(); final do programa para encerrar recurso
 X= sc.next();     (associa o que digitar ao valor de x)
 
 
-<h2>-----------------------------FUNÇÕES MATEMATICAS-------------------------------</h2>
+<h2>-----------------------FUNÇÕES MATEMATICAS--------------------------</h2>
 
 A= Math.sqrt(x)  (variável A recebe raiz quadrada de X)
 
 A= Math.pow(x, y)  (variável A recebe resultado de x elevado a y)
 
 
-<h2>-----------------------------ESTRUTURAS JAVA-----------------------------------</h2>
+<h2>-----------------------ESTRUTURAS JAVA-------------------------</h2>
 
 comando sujeita a uma condição:
 
